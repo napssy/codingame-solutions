@@ -1,7 +1,8 @@
+const CharToNumber = char => parseInt(char, 36) - 9
 const x = readline()
 let n = parseInt(readline())
 let arr = x.split('-')
-arr = [parseInt(arr[0][0], 36) - 9, parseInt(arr[0][1], 36) - 9, arr[1], parseInt(arr[2][0], 36) - 9, parseInt(arr[2][1], 36) - 9]
+arr = [CharToNumber(arr[0][0]), CharToNumber(arr[0][1]), arr[1], CharToNumber(arr[2][0]), CharToNumber(arr[2][1])]
 while(n > 0){
     arr[2]++
     if(arr[2] === 1000){
