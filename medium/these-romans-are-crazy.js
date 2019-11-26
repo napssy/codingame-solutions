@@ -1,4 +1,4 @@
-let romanChars = [{c:'M', v: 1000},{c:'D', v: 500},{c:'C', v: 100},{c:'L', v: 50},{c:'X', v: 10},{c:'V', v: 5},{c:'I', v: 1}]
+let romanChars = [{c:'M', v: 1000},{c:'CM', v: 900},{c:'D', v: 500},{c:'C', v: 100}, {c:'XC', v: 90}, {c:'L', v: 50},{c:'X', v: 10},{c:'V', v: 5},{c:'I', v: 1}]
 let romToDigit = r => {
     r = r.split('').map(n => romanChars.filter(x => x.c === n).map(n => n.v)[0])
     let d = [], i = 0
@@ -9,14 +9,14 @@ let romToDigit = r => {
     return d.reduce((a, b) => a + b)
 }
 let digitToRom = d => {
-    let romResult = '', rest = d, arr = [], i = 0
-    while(i < 7){
-        arr.push(Math.floor(rest / romanChars[i].v))
+    let romResult = '', rest = d, o = [], i = 0
+    while(i < 9){
+        o.push(Math.floor(rest / romanChars[i].v))
         rest = rest - Math.floor(rest / romanChars[i].v) * romanChars[i].v
         i++
     }
-    for(let i = 0; i < arr.length; i++){
-        for(let j = 1; j <= arr[i]; j++){romResult += romanChars[i].c}
+    for(let i = 0; i < o.length; i++){
+        for(let j = 1; j <= o[i]; j++){romResult += romanChars[i].c}
     }
     return romResult.replace('CCCC', 'CD').replace('XXXX', 'XL').replace('VIIII', 'IX').replace('IIII', 'IV')
 }
