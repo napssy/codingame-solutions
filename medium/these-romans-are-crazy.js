@@ -15,9 +15,7 @@ let digitToRom = d => {
         rest = rest - Math.floor(rest / romanChars[i].v) * romanChars[i].v
         i++
     }
-    for(let i = 0; i < o.length; i++){
-        for(let j = 1; j <= o[i]; j++){romResult += romanChars[i].c}
-    }
+    for(let i = 0; i < o.length; i++){for(let j = 1; j <= o[i]; j++){romResult += romanChars[i].c}}
     return romResult.replace('CCCC', 'CD').replace('XXXX', 'XL').replace('VIIII', 'IX').replace('IIII', 'IV')
 }
 let rom1 = romToDigit(readline())
