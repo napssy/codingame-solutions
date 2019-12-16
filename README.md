@@ -20,3 +20,7 @@ My solutions to codingame.com puzzles
   -  [There is no Spoon - Episode 1](https://www.codingame.com/ide/puzzle/there-is-no-spoon-episode-1) | [https://github.com/napssy/codingame-solutions/blob/master/medium/there-is-no-spoon-1.js]
   -  [These romans are crazy](https://www.codingame.com/ide/puzzle/these-romans-are-crazy) | [https://github.com/napssy/codingame-solutions/blob/master/medium/these-romans-are-crazy.js]
   -  [Winamax-battle](https://www.codingame.com/ide/puzzle/winamax-battle) | [https://github.com/napssy/codingame-solutions/blob/master/medium/winamax-battle.js]
+
+## Hard
+  -  [Apple tree](https://www.codingame.com/ide/puzzle/apple-tree) | [https://github.com/napssy/codingame-solutions/blob/master/medium/apple-tree.js]
+  -  [Boggle](https://www.codingame.com/ide/puzzle/boggle) | [https://github.com/napssy/codingame-solutions/blob/master/medium/boggle.js]
