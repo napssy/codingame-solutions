@@ -6,6 +6,9 @@ My Javascript solutions to codingame.com puzzles
   -  [Dead men's shot](https://www.codingame.com/ide/puzzle/dead-mens-shot) | [https://github.com/napssy/codingame-solutions/blob/master/easy/dead-mens-shot.js]
   -  [Defibrillators](https://www.codingame.com/ide/puzzle/defibrillators) | [https://github.com/napssy/codingame-solutions/blob/master/easy/defibrillators.js]
   -  [Dolbears law](https://www.codingame.com/ide/puzzle/dolbears-law) | [https://github.com/napssy/codingame-solutions/blob/master/easy/dolbears-law.js]
+  -  [Ghost legs](https://www.codingame.com/ide/puzzle/ghost-legs) | [https://github.com/napssy/codingame-solutions/blob/master/easy/ghost-legs.js]
+  -  [Happy numbers](https://www.codingame.com/ide/puzzle/happy-numbers) | [https://github.com/napssy/codingame-solutions/blob/master/easy/happy-numbers.js]
+  
   -  [ISBN check digit](https://www.codingame.com/ide/puzzle/isbn-check-digit) | [https://github.com/napssy/codingame-solutions/blob/master/easy/isbn-check-digit.js]
   -  [Temperatures](https://www.codingame.com/ide/puzzle/temperatures) | [https://github.com/napssy/codingame-solutions/blob/master/easy/temperatures.js]
   -  [The descent](https://www.codingame.com/ide/puzzle/the-descent) | [https://github.com/napssy/codingame-solutions/blob/master/easy/the-descent.js]
