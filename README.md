@@ -1,5 +1,5 @@
 # codingame-solutions
-My solutions to codingame.com puzzles
+My Javascript solutions to codingame.com puzzles
 
 ## Easy
   -  [Bank Robbers](https://www.codingame.com/ide/puzzle/bank-robbers) | [https://github.com/napssy/codingame-solutions/blob/master/easy/bank-robbers.js]
